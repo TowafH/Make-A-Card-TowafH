@@ -1,0 +1,73 @@
+/*ORIGINAL TASK PUPILS STARTED WITH */
+/* Insert any CSS code below here */
+
+#outside {
+  z-index: 1;
+  position: absolute;
+  background-color: #F7BC5D;
+  background-image: linear-gradient(to bottom right, #F7BC5D, orange, orangered);
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: 1s;
+  transform-origin: 0;
+  
+}
+
+.open-card {
+  transform: rotateY(90deg);
+}
+
+#outside-title {
+  color: maroon; 
+  font-family: Georgia;
+  font-size: 18pt;
+  text-align: center;
+}
+
+#outside-pic {
+  width: 100px;
+  height: 200px;
+}
+
+#outside-help {
+  color: black;
+  font-family: Verdana;
+  font-size: 12pt;
+  text-align: center;
+  padding: 20px;
+}
+
+#inside {
+  z-index: 0;
+  position: absolute;
+  background-color: black;
+  background-image: linear-gradient(black, gray, lightgray);
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+#inside-title {
+  color: #f06000;
+  font-family: Georgia;
+  font-size: 18pt;
+  text-align: center;
+}
+
+#inside-pic {
+  width: 125px;
+  height: 175px;
+}
+
+#message {
+  color: orange;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 14pt;
+  text-align: center;
+}
+
+button {
+  background: orange;
+  font-family: Arial, Helvetica, sans-serif
+}
